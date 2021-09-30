@@ -53,6 +53,7 @@ function init(font: THREE.Font) {
                             color: diffuseColor,
                             metalness: 0,
                             roughness: 0.5,
+                            sheen: 0.2,
                             clearcoat: 1.0 - alpha,
                             clearcoatRoughness: 1.0 - beta,
                             reflectivity: 1.0 - gamma,
